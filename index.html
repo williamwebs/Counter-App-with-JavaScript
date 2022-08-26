@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Counter App</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Score CounterApp</h1>
+        <p>Copy of a Challenge by <span>Peter</span>. Coded by <span><a href="https://github.com/williamwebs">William</a></span></p>
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-2 active player-0">
+                    <h2 class="name-0">Home</h2>
+                    <div class="display score-0">0</div>
+                    <div class="row-inn">
+                        <button class="btn btn-1" value="1" onclick="calc(1)">+1</button>
+                        <button class="btn btn-2" value="3" onclick="calc(3)">+3</button>
+                        <button class="btn btn-3" value="5" onclick="calc(5)">+5</button>
+                    </div>
+                </div>
+                <!-- <a href="" class="ref">refresh</a> -->
+                <div class="col-2 player-1">
+                    <h2 class="name-1">Guest</h2>
+                    <div class="display display-2 score-1">0</div>
+                    <div class="row-inn">
+                        <button class="btn btn-4" value="1" onclick="calcu(1)">+1</button>
+                        <button class="btn btn-5" value="3" onclick="calcu(3)">+3</button>
+                        <button class="btn btn-6" value="5" onclick="calcu(5)">+5</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
